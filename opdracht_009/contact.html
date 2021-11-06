@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoriete recepten</title>
+</head>
+
+
+
+<body>
+
+    <form name="favoriete recepten" method="POST" data-netlify="true">
+        <div>
+            <label>Naam <input type="text" name="name" /></label>
+        </div>
+        <br />
+        <div>
+            <label>Emailadres <input type="email" name="email" /></label>
+        </div>
+        <br />
+        <div>
+            <label>Telefoonnummer <input type="tel" name="tel" /></label>
+        </div>
+        <br />
+        <div>
+            <label>Leeftijd <input type="number" name="leeftijd" /></label>
+        </div>
+        <br />
+        <div>
+            <label>Geboortedaum <input type="date" name="geboortedatum" /></label>
+        </div>
+        <br />
+        <div>
+            <label>Geslacht
+                <br />
+                <input type="radio" name="geslacht" />vrouw
+                <br />
+                <input type="radio" name="geslacht" />man
+            </label>
+        </div>
+        <br />
+        <div>
+            <label>
+                Favoriete keuken
+                <br />
+                <input type="checkbox" name="frans" /> Frans
+                <br />
+                <input type="checkbox" name="Italiaans" /> italiaans
+                <br />
+                <input type="checkbox" name="spaans" /> Spaans
+                <br />
+                <input type="checkbox" name="arabisch" /> Arabisch
+            </label>
+        </div>
+        <br />
+
+        <div>
+            <label> Favoriete kleur
+                <input type="color" name="favoriete kleur">
+            </label>
+        </div>
+        <br />
+        <div>
+            <label> Biografie
+                <input type="text" name="biografie">
+            </label>
+        </div>
+        <br />
+        <div>
+            <label> Mijn laatste recept
+                <input type="file" name="mijn laatste recepten">
+            </label>
+        </div>
+        <br />
+
+        <div>
+            <label> Link naar recepten website
+                <input type="url" name="recepten website">
+            </label>
+        </div>
+        <br />
+
+        <div>
+            <label>
+                <button type="reset">Reset</button>
+            </label>
+        </div>
+        <br />
+
+        <button type="submit">Send</button>
+
+    </form>
+
+    <a href="index.html">terug</a>
+</body>
+
+</html>
