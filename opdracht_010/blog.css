@@ -1,0 +1,32 @@
+.flexbox {
+    background-color: #ddd;
+    width: 1600px;
+    height: 600px;
+    display: flex;
+
+}
+
+.blogpost {
+    width: 300px;
+    border: 1px solid black;
+}
+
+.blogpost1 {
+    width: 300px;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.blogpost2 {
+    width: 300px;
+    border: 1px solid black;
+    align-self: flex-end;
+}
+
+
+
+/*@media (max-width: 1200px) {
+    .flexbox {
+        flex-direction: column;
+    }
+}*?
