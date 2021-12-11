@@ -1,0 +1,46 @@
+.diy:hover {
+    font-weight: bold;
+    color: lightskyblue;
+}
+
+.haken:active {
+    color: red;
+    font-style: italic;
+}
+
+.kintsugi:visited {
+    color: yellowgreen;
+}
+
+.currentPage {
+    background-color: gray;
+}
+
+.navbar {
+    background-color: darkblue;
+}
+
+#search:focus {
+    border: 3px solid aqua;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li:hover {
+    background-color: lightseagreen;
+}
+
+li a {
+    display: block;
+    padding: 0 10px 0 0;
+    color: white;
+}
+
