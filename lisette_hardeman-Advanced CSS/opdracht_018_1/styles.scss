@@ -1,0 +1,63 @@
+@import "./color";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color-gray;
+    height: 100vh;
+
+.card {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 300px;
+    height: 250px;
+    padding: 25px;
+    margin: 20px 20px 0;
+    background-color: $color-white;
+    box-shadow: 5px 10px 18px $color-shadow;
+    &__info {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        line-height: 25px;
+        color: $color-text;
+    }
+}
+
+.footer {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 300px;
+    height: 150px;
+    padding: 40px 0 10px;
+    margin: 0px 20px 20px ;
+    background-color: $color-footer;
+    box-shadow: 5px 10px 18px lightslategray;
+    &__img {
+    border-radius: 50%;
+    border: white 3px solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 220px;
+    left:125px;
+    }
+    &__name {
+        text-align: center;
+        color: $color-white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: lighter;
+        
+    }
+    &__site {
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: small;
+       color: $color-site;
+    }
+
+}
+}
